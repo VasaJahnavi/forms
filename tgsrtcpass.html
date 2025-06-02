@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tgsrtcpass</title>
+    <style>
+        body{
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div style="background-color: rgb(173, 216, 241); border-radius: 20px;" >
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/05/TSRTC_LOGO.png" width="100px" height="100px">
+        <h1 style="color:blue;">TELANGANA STATE ROAD TRANSPORT CORPORATION</h1>
+        <h1>GENERAL BUS PASS APPLICATION</h1>
+    </div>
+    </center>
+    <fieldset>
+        <legend style="background-color: skyblue; padding: 8px; border-radius: 5px;">Applicant Details</legend>
+        <label for="name">Name *</label>&emsp;
+        <input id="name" type="text" name="name"  maxlength="20">
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="fname">Father's/Guardian's Name *</label>&emsp;
+        <input id="fname" type="text" name="fname"><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;(Maximum characters:20)<br>
+
+        <label for="DOB">Date of birth *</label>
+        <input id="DOB" type="text" name="DOB">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Gender *</label>&emsp;
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender"><br>
+        <small>(dd/mm/yyyy)</small><br>
+        <label>Age As on :</label>
+        Year(s)<input type="checkbox">
+        Month(s)<input type="checkbox">
+        Day(s)<input type="checkbox">
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="adhaar">Aadhaar No:</label>
+        <input id="adhaar" type="number" ><br><br>
+        <label for="whatsApp">WhatsApp No *</label>
+        <input id="whatsApp" type="number" >
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label for="email">E-mail id *</label>
+        <input id="email" type="email" ><br><br>
+        <label for="photo">Photo *</label>
+        <input type="file" id="photo">
+    </fieldset>
+    <fieldset>
+        <legend style="background-color: skyblue; padding: 8px; border-radius: 5px;">Residential Address Details</legend>
+        <label for="address">Applicant's Address *</label>
+        <textarea id="address" rows="5"></textarea>
+        &emsp;&emsp;&emsp;
+        <label>District* </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select>
+            <option selected>HYDERABAD</option>
+        </select><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Maximum characters:20)<br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        You have<input type="text" value="20" readonly size="3">characters left.<br>
+        <label>Mandal* </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select>
+            <option selected>HYDERABAD</option>
+        </select>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <label>Village* </label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <select>
+            <option selected>HYDERABAD</option>
+        </select><br><br>
+        <label for="pincode">Pincode*</label>
+        <input id="pincode" type="number" >
+    </fieldset>
+    <fieldset>
+        <legend style="background-color: skyblue; padding: 8px; border-radius: 5px;">Pass Type Details</legend>
+        City*&emsp;&emsp;&emsp;&emsp;&emsp;<select>
+            <option selected>HYDERABAD</option>
+        </select><br><br>
+        Pass Type*&emsp;&emsp;<select>
+            <option selected disabled>---select---</option>
+            <option>Greater Pass</option>
+            <option>General Ordinary Route Pass MTLY</option>
+            <option>Ordinary Pass</option>
+            <option>General Metro Express Route Pass MTLY</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend style="background-color: skyblue; padding: 8px; border-radius: 5px;">Mode of Payment & Pass Collection</legend>
+        Payment Mode*&emsp;&emsp;&emsp;<select>
+            <option selected>Select Payment Mode</option>
+            <option>Payment at Counter</option>
+        </select><br><br>
+                Pass Delivery Mode* &emsp;<select>
+            <option selected>Select Pass Payment Mode</option>
+            <option>At Counter</option>
+        </select><br><br>
+        Center at which you want to Collect Pass*&emsp;&emsp;<select>
+            <option selected disabled>---select---</option>
+            <option>RTC ABIDS -- HYD[02/06/2025]</option>
+            <option>RTC AFZALGUNJ -- HYD[02/06/20025]</option>
+            <option>RTC AIRPORT -- HYD[02/06/20025]</option>
+            <option>RTC BALANAGAR -- HYD[02/06/20025]</option>
+            <option>RTC CBS -- HYD[02/06/20025]</option>
+            <option>RTC BORABANDA -- HYD[02/06/20025]</option>
+            <option>RTC ECIL -- HYD[02/06/20025]</option>
+            <option>RTC CHARMINAR -- HYD[02/06/20025]</option>
+            <option>RTC JBS -- HYD[02/06/20025]</option>
+            <option>RTC KOTI -- HYD[02/06/20025]</option>
+        </select>
+    </fieldset><center>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtyxsIKnIlZzGNBQ-xrZ6n-Xo7-8Rch-nNhg&s" width="300px" height="100px"><br><br>
+        <input type="text"><br><br>
+        <input type="submit" value="submit">
+    </center>
+
+</body>
+</html>
